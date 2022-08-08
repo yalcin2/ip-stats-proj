@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mega Lorem Ipsum</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="jumbotron text-center pagecolor">
+    <h1>Visitors Page</h1>
+    <p>By Yalcin Formosa</p> 
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 margin-page ridge containerBox">
+        <h3 class >IP Geolocation Service:</h3>
+        <form action="javascript:void(0);" method="POST" onsubmit="fetchCountryWithIp()"> 
+          <div class="form-group">
+            <label>IP Address:</label><br>
+            <input type="text" class="form-control" id="ipAddressInput" placeholder="Lookup the information for the provided IP Address.">
+            <small id="emailHelp" class="form-text text-muted">Enter the IP Address here.</small>
+          </div>
+          <input type="submit" class="btn btn-success buttoninput" value="Lookup">
+        </form>  
+      </div>
+      <div class="col-sm-4 margin-page ridge containerBox">
+        <h3 class >IP Information:</h3>
+        <label>Country:</label> <div id="countryForIp">...</div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

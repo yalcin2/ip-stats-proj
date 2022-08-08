@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mega Lorem Ipsum</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-socket-js/1.0.0/web_socket.min.js"></script>
+  <script src="https://unpkg.com/@adonisjs/websocket-client@1.0.9/dist/Ws.browser.js"></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="jumbotron text-center pagecolor">
+    <h1>Statistics Dashboard</h1>
+    <p>By Yalcin Formosa</p> 
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 margin-page ridge">
+        <h3>Most searched countries:</h3>      
+        <p id="counter"></p> 
+        <table class="table table-bordered" id="countryTable">
+          <tr>
+            <th>Country</th>
+            <th>Total</th>
+          </tr>
+          <tbody id="info">
+          </tbody>
+        </table>
+    
+        <table>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

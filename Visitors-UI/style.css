@@ -1,0 +1,33 @@
+input[type='submit'], button, [aria-label]{
+  cursor: pointer;
+}
+#spoiler{
+  display: none;
+}
+
+a{
+  cursor: pointer;
+}
+
+.margin-page{
+  margin-bottom: 5vh;
+}
+
+.ridge {border-style: ridge;}
+
+.buttoninput{
+  margin-bottom: 2vh !important;
+}
+
+th {
+  cursor: pointer;
+  background-color: #74a4e2;
+}
+
+.pagecolor{
+  background-color: #5d8cc9 !important;
+}
+
+.containerBox{
+  height: 220px;
+}
